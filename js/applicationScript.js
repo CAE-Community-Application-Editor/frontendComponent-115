@@ -59,7 +59,7 @@ var getSongs = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", songs, "", "", {}, false,
+  client.sendRequest("GET", "songs", "", "", {}, false,
   function(data, type) {
     console.log(data);
   },
